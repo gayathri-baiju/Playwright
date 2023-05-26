@@ -1,0 +1,117 @@
+{
+  "config": {
+    "forbidOnly": false,
+    "fullyParallel": false,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {},
+    "preserveOutput": "always",
+    "projects": [
+      {
+        "outputDir": "C:/Playwright/Playwright-Rediff/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "id": "",
+        "name": "",
+        "testDir": "C:/Playwright/Playwright-Rediff",
+        "testIgnore": [],
+        "testMatch": [
+          "**/?(*.)@(spec|test).*"
+        ],
+        "timeout": 30000
+      }
+    ],
+    "reporter": [
+      [
+        "dot",
+        null
+      ],
+      [
+        "json",
+        {
+          "outputFile": "jsonReports/jsonreport.json"
+        }
+      ],
+      [
+        "html",
+        {
+          "open": "on-failure"
+        }
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 15000
+    },
+    "configFile": "C:\\Playwright\\Playwright-Rediff\\playwright.config.ts",
+    "rootDir": "C:/Playwright/Playwright-Rediff",
+    "quiet": false,
+    "shard": null,
+    "updateSnapshots": "missing",
+    "version": "1.32.3",
+    "workers": 2,
+    "webServer": null
+  },
+  "suites": [
+    {
+      "title": "pomTest\\rediffRegister.test.ts",
+      "file": "pomTest/rediffRegister.test.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "Register",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "status": "passed",
+                  "duration": 12892,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "\nThe ID field  accepts letters,numbers & underscore.\n\nPlease re-enter your ID.\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2023-05-26T11:46:28.491Z",
+                  "attachments": [
+                    {
+                      "name": "video",
+                      "contentType": "video/webm",
+                      "path": "C:\\Playwright\\Playwright-Rediff\\test-results\\pomTest-rediffRegister-Register\\video.webm"
+                    },
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "C:\\Playwright\\Playwright-Rediff\\test-results\\pomTest-rediffRegister-Register\\test-finished-1.png"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "59be4fc69f4a4e493a24-e8b7c48dfb8d57bf03b2",
+          "file": "pomTest/rediffRegister.test.ts",
+          "line": 4,
+          "column": 5
+        }
+      ]
+    }
+  ],
+  "errors": []
+}
