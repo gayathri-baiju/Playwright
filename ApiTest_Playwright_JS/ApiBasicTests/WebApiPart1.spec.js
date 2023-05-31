@@ -6,9 +6,10 @@ const orderpayload = { orders: [{ country: "India", productOrderedId: "6262e95ae
 let response;
 
 
+
 test.beforeAll(async () => {
 
-    const apiContext = await request.newContext();
+    const apiContext = await request.newContext();   // similar to webpage but api call instead
     const apiUtils = new ApiUtils(apiContext, loginPayload);
     response=await apiUtils.createOrder(orderpayload);
 
